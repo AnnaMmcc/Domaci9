@@ -1,0 +1,58 @@
+* {
+	margin: 0%;
+	padding: 0%;
+}
+.header {
+	background-image: url("c:/Users/urose/OneDrive/Documents/CSS/Slike/background.jpg");
+	height: 500px;
+
+	background-size: contain;
+	background-attachment: fixed;
+}
+.mainDiv {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+.product {
+	margin: 20px;
+	margin-top: 20px;
+	width: 300px;
+	height: 450px;
+	background-color: rgb(219, 213, 213);
+	color: gray;
+	line-height: 40px;
+	border-radius: 20px;
+}
+.product img {
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.product h3 {
+	color: rgb(170, 56, 56);
+}
+
+.roboto-medium-italic {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+}
+.paddingLeft {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+.spaceBetween {
+	display: flex;
+	justify-content: space-between;
+	color: brown;
+}
+footer {
+	text-align: center;
+	background-color: rgb(194, 191, 191);
+}
